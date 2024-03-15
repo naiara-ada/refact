@@ -1,4 +1,4 @@
-function Tap (){
+function Top (){
     return(
         <div className="header">
             <h1>Cocreta Inc.</h1>
@@ -6,4 +6,4 @@ function Tap (){
         </div>
     )          
 }
-export default Tap
+export default Top
