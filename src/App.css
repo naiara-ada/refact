@@ -48,3 +48,72 @@
 .read-the-docs {
   color: #888;
 }
+.envoltura{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.empleadoCard{
+  border: 1px solid #fff;
+  padding: 15px 40px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img{
+  max-width: 70px;
+  height: auto;
+}
+
+
+.calculator {
+  margin: 25px 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calculator div{
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator .btns {
+  gap: 10px;
+}
+
+.calculator .btns button {
+  background-color: #fff;
+  color: #000;
+  transition: all .3s ease-in-out;
+}
+
+.calculator .btns button {
+  background-color: #fff;
+  color: #000;
+}
+
+.calculator .btns button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer {
+  text-align: left;
+  border-top: 1px solid #fff;
+  
+}
+
+.footer p {
+  font-weight: bold;
+}
